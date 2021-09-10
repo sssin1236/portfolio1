@@ -7,3 +7,14 @@ a { text-decoration: none; outline: 1; }
     display: block;
     clear: both;
 }
+
+.wrap::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.wrap article:last-child{
+    margin-right: 0!important;
+}
+
