@@ -54,7 +54,12 @@ a {
 #visual {
   width: 100%;
   height: calc(100vh - 100px);
-  background: lightcyan; }
+  background: lightcyan;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 10vw; }
 
 #content {
   padding: 150px 0px; }
