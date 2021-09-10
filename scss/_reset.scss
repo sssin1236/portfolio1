@@ -2,8 +2,12 @@
 ul,ol,li { list-style: none; }
 a { text-decoration: none; outline: 1; }
 
-.wrap{
+.wrap::after{
     content: '';
     display: block;
     clear: both;
+}
+
+.wrap>article:last-child{
+    margin-right: 0px!important;
 }
