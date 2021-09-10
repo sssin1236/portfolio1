@@ -3,12 +3,12 @@
 
 #header{
     width: 100%;
+    border-bottom: 1px solid #ddd;
 
     .inner{
         width: 1180px;
         height: 100px;
         margin: 0 auto;
-        border-bottom: 1px solid #ddd;
         position: relative;
 
         h1{
@@ -45,4 +45,10 @@
             }
         }
     }
+}
+
+#visual{
+    width: 100%;
+    height: calc(100vh - 100px);
+    background: lightcyan;
 }

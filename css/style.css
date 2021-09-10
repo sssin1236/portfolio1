@@ -16,12 +16,12 @@ a {
   clear: both; }
 
 #header {
-  width: 100%; }
+  width: 100%;
+  border-bottom: 1px solid #ddd; }
   #header .inner {
     width: 1180px;
     height: 100px;
     margin: 0 auto;
-    border-bottom: 1px solid #ddd;
     position: relative; }
     #header .inner h1 {
       position: absolute;
@@ -47,5 +47,10 @@ a {
           #header .inner #gnb li a:hover {
             background: #555;
             color: #fff; }
+
+#visual {
+  width: 100%;
+  height: calc(100vh - 100px);
+  background: lightcyan; }
 
 /*# sourceMappingURL=style.css.map */
